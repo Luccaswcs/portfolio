@@ -169,11 +169,9 @@ img {
     }
      .organizador {
         max-width: 300px;
-        display: grid;
-        grid-template-columns: 300px;
-        grid-template-areas:  
-        "foto"
-        "descricao";
+        display: flex;
+        align-content: center;
+        justify-content: center;
         line-height: 35px;
     } 
 
@@ -315,13 +313,15 @@ h2 {
 
 
 .sobre-mim{
-    
+    margin-right: 70px;
+    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 .sobre-mim p {
+
     text-indent: 30px;
     font-size: 20px;
     max-width: 610px;
