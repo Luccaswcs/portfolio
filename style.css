@@ -9,10 +9,6 @@ ul {
     flex-wrap: wrap;
 }
 
-nav {
-    width: 50%;
-}
-
 a {
     text-decoration: none;
     display: block;
